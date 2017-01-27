@@ -1,3 +1,5 @@
+//Presumes array is pre-sorted
+
 function binarySearch(array, target) {
   // inner function for recursion
   function subSearch(min, max){
